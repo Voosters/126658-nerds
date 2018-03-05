@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
+	<meta charset="utf-8">
+	<title>Nerds</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/style.css" type="text/css"	rel="stylesheet">
+   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+	<div class="site-wrapper">
+		<div class="page-wrapper">
+			<header class="main-header">
+				<nav class="main-nav">
+					<a class="index-logo" href="#"><img src="img/nerds-logo.svg" alt="Логотип"></a>
+					<div class="site-nav">
+						<ul class="main-menu">
+							<li class="main-menu-item">Студия</li>
+							<li class="main-menu-item">Клиенты</li>
+							<li class="main-menu-item">Магазин</li>
+							<li class="main-menu-item">Контакты</li>
+						</ul>
+					</div>
+					<div class="user-nav">
+						<div class="basket">Корзина</div>
+					</div>
+				</nav>
+			</header>
+			<main>
+				<div class="slider-part">
+					<section class="slider">
+						<input type="radio" id="button-1" name="toggle" checked>
+						<input type="radio" id="button-2" name="toggle">
+						<input type="radio" id="button-3" name="toggle">
+						<div class="slide-1">1</div>
+						<div class="slide-2">2</div>
+						<div class="slide-3">3</div>
+					</section>
+					<section class="slider-info">
+						<h2 class="info-name">Долго, дорого, скрупулезно.</h2>
+							<p class="info-description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+							<a class="know-more-button" href="#">Узнать больше</a>			
+					</section>
+				</div>
+				<section class="catalog-part">
+					<article class="catalog-item">
+						<img src="img/illustration-1.jpg" alt="Веб-сайты">
+						<h3 class="catalog-item-name">Веб-сайты</h3>
+						<p class="item-description">Мир никогда не будет прежним после того как увидит ваш сайт.</p>
+						<a class="order-button" href="#">Заказать</a>
+					</article>
+					<article class="catalog-item">
+						<img src="img/illustration-2.jpg" alt="Приложения">
+						<h3 class="catalog-item-name">Приложения</h3>
+						<p class="item-description">Покорите топ-10 приложений в AppStore и Google Play</p>
+						<a class="order-button" href="#">Заказать</a>
+					</article>
+					<article class="catalog-item">
+						<img src="img/illustration-3.jpg" alt="Презентации">
+						<h3 class="catalog-item-name">Презентации</h3>
+						<p class="item-description">Вы даже не подозреваете, насколько вы изумительны!</p>
+						<a class="order-button" href="#">Заказать</a>
+					</article>
+				</section>
+				<section class="about-part">
+					<div class="about-text">
+						<h2 class="about-name">Мы - маленькая, но гордая дизайн-студия из Краснодара</h2>
+							<p class="about-description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива.
+							Работаем не покладая рук, как роботы.</p>
+								<h3 class="about-items-name">Выполняем заказы на разработку:</h3>
+									<ul class="about-items">
+										<li>Веб-сайтов любой сложности</li>
+										<li>Мобильных приложений для iOS и Android</li>
+										<li>Слайдшоу и видео для корпоративных презентаций</li>
+									</ul>
+					</div>
+					<div class="about-features">
+						<img src="img/nerds-illustration.jpg" alt="Логотип">
+							<h3 class="about-features-text">С 2004 года любим точность во всем</h3>
+								<table class="about-table">
+									<tr class="about-table-number">
+										<td>146%</td>
+										<td>100%</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td>Уровень самоотдачи</td>
+										<td>Соблюдение сроков</td>
+										<td>Минимальная предоплата</td>
+									</tr>
+								</table>
+					</div>
+				</section>
+				<section class="partners-logo">
+					<ul>
+						<li><img src="img/logo-1.png" alt="HTML Academy"></li>
+						<li><img src="img/logo-2.png" alt="Бородинский"></li>
+						<li><img src="img/logo-3.png" alt="Pink"></li>
+						<li><img src="img/logo-4.png" alt="Мишка"></li>
+					</ul>
+				</section>
+				<section class="contacts-part">
+					<div class="contacts-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1680.626500259789!2d30.324913289047686!3d59.93856375735322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1463165208330" allowfullscreen></iframe>
+						  <div class="contact-box">
+							<p class="contact-box-name">Nerd's design studio</p>
+							<p class="contact-box-adress">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+							<p class="contact-box-phone">тел. +7 (812) 275-75-75</p>
+							<div class="feedback-button" ><a href="#open-modal">Напишите нам</a></div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer>
+				<div class="footer-social">
+					<a href="">Вконтакте</a>
+					<a href="">Facebook</a>
+					<a href="">Instagram</a>
+					<p class="social-text">Давайте дружить, это выгодно!
+					<span class="social-description">Скидка 10% для друзей из социальных сетей.</span></p>
+				</div>
+			</footer>
+		</div>
+	</div>
+ </body>
 </html>
